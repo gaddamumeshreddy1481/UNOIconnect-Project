@@ -1,0 +1,24 @@
+{
+  "name": "oiwc-api-service",
+  "version": "1.0.0",
+  "description": "API service to manage the omaha international women's club ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm app.js"
+  },
+  "author": "Gopinath Gangisetti",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.3",
+    "mysql2": "^3.24.4",
+    "nodemon": "^2.0.15",
+    "sequelize": "^3.30.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8"
+  }
+}
